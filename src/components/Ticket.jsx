@@ -34,7 +34,7 @@ function Ticket(props){
     if (minutes < 1) {
       timeString = "<1m";
     } else {
-      timeString = `${minutes}m`
+      timeString = `${minutes} * 10^25 days`
     }
     return timeString;
   }
